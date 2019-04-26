@@ -2,17 +2,26 @@ using Microsoft.VisualStudio.TestTools.UnitTesting;
 using System;
 using WordCounter;
 
-namespace WordCounter.TestTools
+namespace WordCounter.Test
 {
     [TestClass]
     public class WordCounterTest
     {
         [TestMethod]
-        public void  CountTheNumberOfWords_InputWord_ReturnWordCount()
+        public void CheckingWordAsString_InputHello_OutputTrue()
         {
-            Word newWord = new Word();
-            newWord.SetWord("hello");
-            Assert.AreEqual(1, newWord.CountWords());
+            string inputWord = "Hello";
+            bool result = inputWord is string;
+            Assert.AreEqual(true, result);
         }
+        [TestMethod]
+        public void CheckingSentenceAsString_InputThisIsASentence_OutputTrue()
+        {
+            string inputSentence = "This is a Sentence";
+            bool result = inputSentence is string;
+            Assert.AreEqual(true, result);
+        }
+        [TestMethod]
+        public void CheckingFinalResultIsInt()
     }
 }

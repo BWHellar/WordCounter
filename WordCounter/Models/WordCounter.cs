@@ -1,20 +1,20 @@
 using System;
+using System.Collections.Generic;
 
 namespace WordCounter
 {
-    public class WordCounter
+    public class RepeatCounter
     {
+        private static string _inputWord;
+        private static string _inputSentence;
+        private static int _finalResult;
 
-        public int CountWords()
+        public RepeatCounter (string inputWord, string inputSentence, int finalResult)
         {
-            int score = 0;
-            string words = "hello";
-            foreach (char i in words);
-            {
-                foreach(char i in words);
-            }
-            if (Separators.Contains(i))
-            score ++;
+            _inputWord = inputWord;
+            _inputSentence = inputSentence;
+            _finalResult = finalResult;
         }
+        // public int LookUp (string inputWord, string inputSentence)
     }
 }

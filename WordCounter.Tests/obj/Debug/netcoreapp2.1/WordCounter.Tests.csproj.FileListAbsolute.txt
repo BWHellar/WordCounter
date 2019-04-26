@@ -1,0 +1,17 @@
+/Users/bwhellar/Desktop/C#/WordCounter.Solution/WordCounter.Tests/obj/Debug/netcoreapp2.1/WordCounter.Tests.csprojAssemblyReference.cache
+/Users/bwhellar/Desktop/C#/WordCounter.Solution/WordCounter.Tests/obj/Debug/netcoreapp2.1/WordCounter.Tests.csproj.CoreCompileInputs.cache
+/Users/bwhellar/Desktop/C#/WordCounter.Solution/WordCounter.Tests/obj/Debug/netcoreapp2.1/WordCounter.Tests.AssemblyInfoInputs.cache
+/Users/bwhellar/Desktop/C#/WordCounter.Solution/WordCounter.Tests/obj/Debug/netcoreapp2.1/WordCounter.Tests.AssemblyInfo.cs
+/Users/bwhellar/Desktop/C#/WordCounter.Solution/WordCounter.Tests/bin/Debug/netcoreapp2.1/Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+/Users/bwhellar/Desktop/C#/WordCounter.Solution/WordCounter.Tests/bin/Debug/netcoreapp2.1/Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+/Users/bwhellar/Desktop/C#/WordCounter.Solution/WordCounter.Tests/bin/Debug/netcoreapp2.1/Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+/Users/bwhellar/Desktop/C#/WordCounter.Solution/WordCounter.Tests/bin/Debug/netcoreapp2.1/WordCounter.Tests.deps.json
+/Users/bwhellar/Desktop/C#/WordCounter.Solution/WordCounter.Tests/bin/Debug/netcoreapp2.1/WordCounter.Tests.runtimeconfig.json
+/Users/bwhellar/Desktop/C#/WordCounter.Solution/WordCounter.Tests/bin/Debug/netcoreapp2.1/WordCounter.Tests.runtimeconfig.dev.json
+/Users/bwhellar/Desktop/C#/WordCounter.Solution/WordCounter.Tests/bin/Debug/netcoreapp2.1/WordCounter.Tests.dll
+/Users/bwhellar/Desktop/C#/WordCounter.Solution/WordCounter.Tests/bin/Debug/netcoreapp2.1/WordCounter.Tests.pdb
+/Users/bwhellar/Desktop/C#/WordCounter.Solution/WordCounter.Tests/bin/Debug/netcoreapp2.1/WordCounter.dll
+/Users/bwhellar/Desktop/C#/WordCounter.Solution/WordCounter.Tests/bin/Debug/netcoreapp2.1/WordCounter.pdb
+/Users/bwhellar/Desktop/C#/WordCounter.Solution/WordCounter.Tests/obj/Debug/netcoreapp2.1/WordCounter.Tests.csproj.CopyComplete
+/Users/bwhellar/Desktop/C#/WordCounter.Solution/WordCounter.Tests/obj/Debug/netcoreapp2.1/WordCounter.Tests.dll
+/Users/bwhellar/Desktop/C#/WordCounter.Solution/WordCounter.Tests/obj/Debug/netcoreapp2.1/WordCounter.Tests.pdb

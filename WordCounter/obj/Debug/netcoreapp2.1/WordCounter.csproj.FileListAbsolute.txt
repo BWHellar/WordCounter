@@ -2,3 +2,8 @@
 /Users/bwhellar/Desktop/C#/WordCounter.Solution/WordCounter/obj/Debug/netcoreapp2.1/WordCounter.csproj.CoreCompileInputs.cache
 /Users/bwhellar/Desktop/C#/WordCounter.Solution/WordCounter/obj/Debug/netcoreapp2.1/WordCounter.AssemblyInfoInputs.cache
 /Users/bwhellar/Desktop/C#/WordCounter.Solution/WordCounter/obj/Debug/netcoreapp2.1/WordCounter.AssemblyInfo.cs
+/Users/bwhellar/Desktop/C#/WordCounter.Solution/WordCounter/bin/Debug/netcoreapp2.1/WordCounter.deps.json
+/Users/bwhellar/Desktop/C#/WordCounter.Solution/WordCounter/bin/Debug/netcoreapp2.1/WordCounter.dll
+/Users/bwhellar/Desktop/C#/WordCounter.Solution/WordCounter/bin/Debug/netcoreapp2.1/WordCounter.pdb
+/Users/bwhellar/Desktop/C#/WordCounter.Solution/WordCounter/obj/Debug/netcoreapp2.1/WordCounter.dll
+/Users/bwhellar/Desktop/C#/WordCounter.Solution/WordCounter/obj/Debug/netcoreapp2.1/WordCounter.pdb
