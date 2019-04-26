@@ -52,7 +52,7 @@
 -   Please clone from the Github repo https://bwhellar.github.io/WordCounter/
 -   By selecting the various options you will gain a different price.
 
-This app requires the internet as it uses HTMl and CSS and Javascript.
+This app requires some sort of console to run the C# app
 
 ## Known Bugs
 
@@ -64,7 +64,7 @@ If you have any issues please contact Brendan Hellar at bwhellar@gmail.com
 
 ## Technologies Used
 
-HTML and CSS and Javascript
+C#
 
 ### License
 
