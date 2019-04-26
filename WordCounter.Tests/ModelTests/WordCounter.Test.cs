@@ -8,7 +8,7 @@ namespace WordCounter.Test
     public class WordCounterTest
     {
         [TestMethod]
-        // Passed
+        // Passed: Checking to see if string of inputWord registers as a string.
         public void CheckingWordAsString_InputHello_OutputTrue()
         {
             string inputWord = "Hello";
@@ -16,7 +16,7 @@ namespace WordCounter.Test
             Assert.AreEqual(true, result);
         }
         [TestMethod]
-        // Passed
+        // Passed: Checking to see if string of inputSentence registers as a string.
         public void CheckingSentenceAsString_InputThisIsASentence_OutputTrue()
         {
             string inputSentence = "This is a Sentence";
@@ -24,7 +24,7 @@ namespace WordCounter.Test
             Assert.AreEqual(true, result);
         }
         [TestMethod]
-        // Results in warning CS0183 - Given expression is always of the privided 'int. Still passes
+        // Passed: Registers a warning as int is an int: Checking to see if the int finalResult registers as an int.
         public void CheckingFinalResultIsInt_Input1_OutputTrue()
         {
             int finalResult = 1;
@@ -32,7 +32,7 @@ namespace WordCounter.Test
             Assert.AreEqual(true, result);
         }
         [TestMethod]
-        // Passed
+        // Passed: Checking to see if program registers one instance of the word "Sentence" in sentence.
         public void CheckingIfWordsAreInSentence_InputThisIsASentence_Output1()
         {
             int finalResult = 0;
@@ -42,6 +42,24 @@ namespace WordCounter.Test
             Assert.AreEqual(1, count.LookUp(inputWord, inputSentence));
         }
         [TestMethod]
-        public void CheckingVariousFormsOfWords_
+        // Passed: Checking to see if program registers two instances of "Hat" and ignores the word of "HatHat".
+        public void CheckingVariousFormsOfWords_InputHatHat_Hat_Hat_Ouput2()
+        {
+            int finalResult = 0;
+            string inputSentence = "HatHat Hat hat";
+            string inputWord = "Hat";
+            RepeatCounter count = new RepeatCounter (inputWord, inputSentence, finalResult);
+            Assert.AreEqual(2, count.LookUp(inputWord, inputSentence));
+        }
+        [TestMethod]
+        // Passed: Checking to see if program registers four instances of "Dog" and properly separates sentence ending symbols.
+        public void CheckingNonSpaces_InputWordsAndSymbols_OutputCorrectWordCount()
+        {
+            int finalResult = 0;
+            string inputSentence = "dog $ Dogdog Dog*@($% dog&&Dog dog !dog Dog!";
+            string inputWord = "Dog";
+            RepeatCounter count = new RepeatCounter (inputWord, inputSentence, finalResult);
+            Assert.AreEqual(4, count.LookUp(inputWord, inputSentence));
+        }
     }
 }

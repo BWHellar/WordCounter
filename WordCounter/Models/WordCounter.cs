@@ -5,26 +5,34 @@ namespace WordCounter
 {
     public class RepeatCounter
     {
+        // Here we declare the private static string and int so we can store the information in one location.
         private static string _inputWord;
         private static string _inputSentence;
         private static int _finalResult;
 
+        // Here we put the private strings and int into something that can be read by other aspects of our file down the line.
         public RepeatCounter (string inputWord, string inputSentence, int finalResult)
         {
             _inputWord = inputWord;
             _inputSentence = inputSentence;
             _finalResult = finalResult;
         }
+        // This is the core of our functionality
         public int LookUp (string inputWord, string inputSentence)
         {
-            string[] sentenceArray = inputSentence.ToLower().Split(' ', '.', ',', '!', '?', '(', ')', '/');
+            // We take the inputted sentence and drop it into an empty string where we can split it at the designated symbols.
+            string[] sentenceArray = inputSentence.ToLower().Split(' ', '.', ',', '!', '?');
+            // We run the length of the new array which we previously split.
             for (int i = 0; i < sentenceArray.Length; i++)
             {
+                // We take the input word and drop it to lower to process.  Then we look for the word in the split sentence.
                 if (inputWord.ToLower() == sentenceArray[i])
                 {
+                    // This adds to our counter so we know how many instances of the word were found.
                     _finalResult++;
                 }
             }
+            //  We finally return the result.
             return _finalResult;
         }
     }
