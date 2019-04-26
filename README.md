@@ -12,7 +12,7 @@
 
 ## Specs
 | Spec | Input | Output | Reasoning |
-| :-------------     | :------------- | :------------- |
+| :-------------     | :------------- | :------------- | :----------- |
 | **Allows Input of Words** | User input: "cookie" | Output: "1" | Reasoning: The inputted word was "cookie" and the program counted one instance of "cookie". |
 | **Counts Instances of Words in Sentence** | User Input: "This is a cookie" | Output: "1" | Reasoning: The program searched the sentence and found one instance of "cookie". |
 | **Accounts for sentence ending symbols** | User Input: "This cookie is a cookie!" | Output: "2" | Reasoning: The program found two instances of "cookie" as it designated "!" as a proper sentencer ender |
