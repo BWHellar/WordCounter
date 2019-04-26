@@ -11,12 +11,12 @@
 #### This project will showcase our introductory knowledge of C#.  The primary focus of this project is about utilizing testing in our projects.  This program will focus on our ability to test basic functions which will be useful in larger scale testing environments.
 
 ## Specs
-| Spec | Input | Output |
+| Spec | Input | Output | Reasoning |
 | :-------------     | :------------- | :------------- |
-| **Allows Input of Words** | User input: "cookie" | Output: "1" |
-| **Counts Instances of Words in Sentence** | User Input: "This is a cookie" | Output: "1" |
-| **Accounts for sentence ending symbols** | User Input: "This dog is a dog!" | Output: "2" |
-| **Avoids instances of word in other words** | User Input: "This doghat is a dog" | Output: "1" |
+| **Allows Input of Words** | User input: "cookie" | Output: "1" | Reasoning: The inputted word was "cookie" and the program counted one instance of "cookie". |
+| **Counts Instances of Words in Sentence** | User Input: "This is a cookie" | Output: "1" | Reasoning: The program searched the sentence and found one instance of "cookie". |
+| **Accounts for sentence ending symbols** | User Input: "This cookie is a cookie!" | Output: "2" | Reasoning: The program found two instances of "cookie" as it designated "!" as a proper sentencer ender |
+| **Avoids instances of word in other words** | User Input: "This cookiehat is a cookie" | Output: "1" | Reasoning: The program found one instance of "cookie" as it determined that "cookiehat" was a completely new word |
 
 ###### Here we declare the private static string and int so we can store the information in one location.  Then we put the private strings and int into something that can be read by other aspects of our file down the line.
 ```
