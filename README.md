@@ -49,10 +49,15 @@
 ```
 ## Setup/Installation Requirements
 
--   Please clone from the Github repo https://bwhellar.github.io/WordCounter/
--   By selecting the various options you will gain a different price.
+Download .NET Core 2.2.103 SDK install it. Download Mono and install it.
 
-This app requires some sort of console to run the C# app
+1. Clone this repository: $ git clone repo name
+2. Change into the work directory:: $ cd WordCounter.Solution
+3. To edit the project, open the project in your preferred text editor.
+
+ - To run the program, first navigate to the location of the WordCounter.cs file then compile and execute: $ cd                WordCounter/Models $ mcs WordCounter.cs; mono WordCounter.exe;
+
+ - To run the tests, use these commands: $ cd WordCounter.Tests $ dotnet test
 
 ## Known Bugs
 
