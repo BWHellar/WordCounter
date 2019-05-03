@@ -17,6 +17,19 @@ namespace WordCounter.Models
             _inputSentence = inputSentence;
             _finalResult = finalResult;
         }
+
+        public static string GetInputWord()
+        {
+          return _inputWord;
+        }
+        public static string GetInputSentence()
+        {
+          return _inputSentence;
+        }
+        public static int GetFinalResult()
+        {
+          return _finalResult;
+        }
         // This is the core of our functionality
         public int LookUp (string inputWord, string inputSentence)
         {
@@ -35,5 +48,6 @@ namespace WordCounter.Models
             //  We finally return the result.
             return _finalResult;
         }
+
     }
 }

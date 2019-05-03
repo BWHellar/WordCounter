@@ -23,5 +23,5 @@
 /Users/bwhellar/Desktop/C#/WordCounter.Solution/WordCounter/obj/Debug/netcoreapp2.1/WordCounter.RazorTargetAssemblyInfo.cs
 /Users/bwhellar/Desktop/C#/WordCounter.Solution/WordCounter/obj/Debug/netcoreapp2.1/WordCounter.Views.pdb
 /Users/bwhellar/Desktop/C#/WordCounter.Solution/WordCounter/obj/Debug/netcoreapp2.1/WordCounter.csproj.CopyComplete
-/Users/bwhellar/Desktop/C#/WordCounter.Solution/WordCounter/obj/Debug/netcoreapp2.1/Razor/Views/Items/CreateCount.g.cshtml.cs
-/Users/bwhellar/Desktop/C#/WordCounter.Solution/WordCounter/obj/Debug/netcoreapp2.1/Razor/Views/Items/Index.g.cshtml.cs
+/Users/bwhellar/Desktop/C#/WordCounter.Solution/WordCounter/obj/Debug/netcoreapp2.1/Razor/Views/WordCounter/CreateCount.g.cshtml.cs
+/Users/bwhellar/Desktop/C#/WordCounter.Solution/WordCounter/obj/Debug/netcoreapp2.1/Razor/Views/WordCounter/Index.g.cshtml.cs
