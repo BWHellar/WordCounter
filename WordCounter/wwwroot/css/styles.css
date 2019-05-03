@@ -1,0 +1,34 @@
+body{
+  font-family: Monospace;
+  font-weight: bold;
+  text-align: center;
+  background-image: url(../../img/Tapping.gif);
+  background-repeat: no-repeat;
+  background-position: center center;
+  margin-top: 40%;
+}
+h2
+{
+  color: red;
+}
+
+h3
+{
+ border-style: solid;
+ background: #F3FA9E;
+ text-align: center;
+ font-size: 25px;
+ border-radius: 25px;
+ box-shadow: 3px 5px #ABD6D7;
+}
+
+#inputWord, #inputSentence
+{
+  background-color: #ABD6D7;
+}
+
+button
+{
+  position: relative;
+  bottom: 10px;
+}
