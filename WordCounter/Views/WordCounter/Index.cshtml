@@ -1,3 +1,8 @@
+@{
+  Layout = "_Layout";
+}
+
+
 @using WordCounter.Models;
 
 
@@ -7,14 +12,14 @@
 {
   <h3>Your Word: @RepeatCounter.GetInputWord()</h3>
   <h3>Your Sentence: @RepeatCounter.GetInputSentence()</h3>
-  <h2>Your word does not appear in your sentence</h2>
+  <h2>Either no sentence input or no words detected</h2>
 }
 
 @if (RepeatCounter.GetFinalResult() != 0)
 {
   <h3>Your Word is: @RepeatCounter.GetInputWord()</h3>
   <h3>Your Sentence is: @RepeatCounter.GetInputSentence()</h3>
-  <h2>The input Word, @RepeatCounter.GetFinalResult(), appears time(s) in your sentence. </h2>
+  <h2>The input Word appears @RepeatCounter.GetFinalResult() time(s) in your sentence. </h2>
 }
 
 <h2><a href="/WordCount/New">Another</a></h2>

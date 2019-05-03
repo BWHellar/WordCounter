@@ -47,12 +47,12 @@ namespace AspNetCore
             WriteLiteral("<!DOCTYPE html>\n<html>\n  ");
             EndContext();
             BeginContext(25, 260, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("head", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "44804056e71e46a1917da342e4540e4e", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("head", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "98e44365a0a0477eb2c75871c8b3f370", async() => {
                 BeginContext(31, 179, true);
                 WriteLiteral("\n    <meta charset=\"utf-8\">\n    <title>My Super Awesome Site!</title>\n    <link rel=\'stylesheet\' href=\'https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css\'>\n    ");
                 EndContext();
                 BeginContext(210, 65, false);
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("link", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.SelfClosing, "0a09f3d91dfa4f088964b99f95440127", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("link", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.SelfClosing, "c9181fbd0623482ab7e705f9370293de", async() => {
                 }
                 );
                 __Microsoft_AspNetCore_Mvc_Razor_TagHelpers_UrlResolutionTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.Razor.TagHelpers.UrlResolutionTagHelper>();
@@ -87,7 +87,7 @@ namespace AspNetCore
             WriteLiteral("\n  ");
             EndContext();
             BeginContext(288, 62, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("body", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "56bcb6208bf941c1b4cdddeb1964618c", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("body", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "beec1f7b3f214cab9d3d317cb09cd3b1", async() => {
                 BeginContext(294, 5, true);
                 WriteLiteral("\n    ");
                 EndContext();

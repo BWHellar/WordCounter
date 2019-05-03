@@ -12,15 +12,14 @@ namespace WordCounter.Controllers
           return View();
         }
         [HttpGet("/WordCount/New")]
-        public ActionResult New()
+        public ActionResult CreateCount()
         {
           return View();
         }
 
         [HttpPost("/WordCount")]
-        public ActionResult Create(string inputWord, string inputSentence, int finalResult)
+        public ActionResult CreateCount(string inputWord, string inputSentence, int finalResult)
         {
-          int result = 0;
           RepeatCounter counter = new RepeatCounter(inputWord, inputSentence, finalResult);
           counter.LookUp(inputWord, inputSentence);
           return RedirectToAction("Index", counter);
