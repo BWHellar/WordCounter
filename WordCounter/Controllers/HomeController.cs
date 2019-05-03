@@ -5,6 +5,7 @@ namespace WordCounter.Controllers
 {
     public class HomeController : Controller
     {
+      // This is our landing page
       [HttpGet("/")]
       public ActionResult Index()
       {

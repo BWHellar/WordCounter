@@ -17,7 +17,7 @@ namespace WordCounter.Models
             _inputSentence = inputSentence;
             _finalResult = finalResult;
         }
-
+        //  This set here is added in order to return the inputted word, sentence and count.  We use this in our front facing layout.  I believe individual public static strings are required to call on each of our inputs.
         public static string GetInputWord()
         {
           return _inputWord;

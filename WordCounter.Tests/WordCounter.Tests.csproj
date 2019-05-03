@@ -4,13 +4,14 @@
     <TargetFramework>netcoreapp2.1</TargetFramework>
   </PropertyGroup>
   <ItemGroup>
+    <!-- This is where we introduce the various packages we need to run the tests.  The versions may change and I went with lower versions I think? Either way this works. -->
     <PackageReference Include="Microsoft.NET.Test.Sdk" Version="15.9.0" />
     <PackageReference Include="MSTest.TestAdapter" Version="1.3.2" />
     <PackageReference Include="MSTest.TestFramework" Version="1.3.2" />
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\WordCounter\WordCounter.csproj" />  
+    <ProjectReference Include="..\WordCounter\WordCounter.csproj" />
   </ItemGroup>
 
 </Project>
