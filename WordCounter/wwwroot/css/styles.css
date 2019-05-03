@@ -4,8 +4,9 @@ body{
   text-align: center;
   background-image: url(../../img/Tapping.gif);
   background-repeat: no-repeat;
-  background-position: center center;
-  margin-top: 40%;
+  background-position: top center;
+  margin-top: 30%;
+  background-color: #a0986899;
 }
 h2
 {
